@@ -1,0 +1,62 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(33 22) rotate(53.75) scale(60.2108)">
+      <stop stop-color="#2E3052"/>
+      <stop offset="0.33" stop-color="#111220"/>
+      <stop offset="0.72" stop-color="#09090E"/>
+      <stop offset="1" stop-color="#020204"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(54 46) rotate(117.149) scale(33.8789 24.6071)">
+      <stop stop-color="#FFB36F"/>
+      <stop offset="0.54" stop-color="#FF8B3E"/>
+      <stop offset="1" stop-color="#FF5E12"/>
+    </radialGradient>
+    <linearGradient id="glassRim" x1="22" y1="14" x2="75" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F7FC" stop-opacity="0.58"/>
+      <stop offset="0.23" stop-color="#5B5E7A" stop-opacity="0.3"/>
+      <stop offset="0.68" stop-color="#0A0A0F" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#888CA6" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="hotEdge" x1="56" y1="23" x2="71" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB46F"/>
+      <stop offset="0.45" stop-color="#FF8432"/>
+      <stop offset="1" stop-color="#8C3D0F"/>
+    </linearGradient>
+    <linearGradient id="flameOuter" x1="33.5" y1="21" x2="66.5" y2="75.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD8AF"/>
+      <stop offset="0.35" stop-color="#FFB26A"/>
+      <stop offset="0.7" stop-color="#FF8332"/>
+      <stop offset="1" stop-color="#E45A16"/>
+    </linearGradient>
+    <linearGradient id="flameInner" x1="39" y1="24.5" x2="58.5" y2="62.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8F0"/>
+      <stop offset="0.42" stop-color="#FFE8D1"/>
+      <stop offset="1" stop-color="#FFB97A"/>
+    </linearGradient>
+    <radialGradient id="gloss" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(39 15) rotate(90) scale(23 42)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.62"/>
+      <stop offset="0.58" stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softBlur" x="4" y="4" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <circle cx="48" cy="48" r="44" fill="url(#bgGlow)"/>
+  <circle cx="48" cy="48" r="43" stroke="url(#glassRim)" stroke-width="2"/>
+  <ellipse cx="38" cy="21" rx="28" ry="14" fill="url(#gloss)" />
+  <circle cx="48" cy="48" r="40.5" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <g filter="url(#softBlur)" opacity="0.68">
+    <ellipse cx="62" cy="49" rx="14" ry="28" fill="url(#coreGlow)"/>
+  </g>
+
+  <path d="M66.8 18C72.7 25.5 75.8 35.1 75.8 46.4C75.8 58.5 71.8 69.2 64.3 77.5H58.1C64.6 68.9 68.1 58.8 68.1 47.2C68.1 36.3 64.8 26.6 58.2 18H66.8Z" fill="url(#hotEdge)"/>
+
+  <path d="M34.4 20.8C44.8 24.5 53.7 31.6 58.9 41.9C64 51.8 64.6 63.1 60.9 74.9C56.5 69.5 51.3 65.1 45.1 61.6C48.4 56.6 49.6 51.3 48.3 45.8C46.8 39.5 42.2 31.1 34.4 20.8Z" fill="url(#flameOuter)"/>
+
+  <path d="M40.4 25.3C49.3 31 56 38.6 59.4 47.2C62.2 54.3 61.8 61.8 58.2 69.8C54.5 63.8 49.6 59.5 43.5 56.9C45.6 53.8 46.4 50.3 45.6 46.4C44.7 42 42.9 34.9 40.4 25.3Z" fill="url(#flameInner)"/>
+
+  <path d="M31.2 23.5C37.7 31.6 41.6 39.5 42.9 47C44.2 54.4 42.3 61.6 37.2 68.5C33.2 62.9 31.2 56.6 31.2 49.4C31.2 39.5 33 30.9 36.6 23.5H31.2Z" fill="#FFF8F0"/>
+</svg>

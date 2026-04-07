@@ -1,0 +1,129 @@
+{
+  "header": {
+    "id": "header",
+    "className": "dark",
+    "brand": {
+      "title": "JoyFlix AI",
+      "className": "gap-2.5",
+      "titleClassName": "text-[2rem] leading-none font-bold tracking-[-0.04em] text-[#8f97ff]",
+      "logo": {
+        "src": "/joyflix-mark.svg",
+        "alt": "JoyFlix AI",
+        "width": 96,
+        "height": 96,
+        "className": "h-9 w-9 rounded-full"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Pricing",
+          "url": "/#pricing",
+          "className": "text-[0.98rem] font-medium tracking-[-0.02em] text-white/72 hover:text-white/90"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Sign In",
+        "url": "/sign-in",
+        "target": "_self",
+        "variant": "default",
+        "className": "h-11 rounded-full px-6 text-[0.98rem] font-medium shadow-none"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": false,
+    "show_locale": false
+  },
+  "footer": {
+    "id": "footer",
+    "className": "dark bg-[#050505] border-t border-white/10 text-white",
+    "brand": {
+      "title": "JoyFlix AI",
+      "description": "A JoyFlix-inspired landing experience built on the existing ShipAny / Next.js project structure.",
+      "logo": {
+        "src": "/joyflix-mark.svg",
+        "alt": "JoyFlix AI",
+        "width": 96,
+        "height": 96
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Product",
+          "children": [
+            {
+              "title": "Features",
+              "url": "/#features"
+            },
+            {
+              "title": "Pricing",
+              "url": "/#pricing"
+            },
+            {
+              "title": "Reviews",
+              "url": "/#testimonials"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "FAQ",
+              "url": "/#faq"
+            },
+            {
+              "title": "Pricing Page",
+              "url": "/pricing"
+            },
+            {
+              "title": "Sign In",
+              "url": "/sign-in"
+            }
+          ]
+        },
+        {
+          "title": "Friends",
+          "children": [
+            {
+              "title": "Product Hunt",
+              "url": "https://www.producthunt.com/",
+              "target": "_blank"
+            },
+            {
+              "title": "Toolify",
+              "url": "https://www.toolify.ai/",
+              "target": "_blank"
+            },
+            {
+              "title": "ShipAny",
+              "url": "https://shipany.ai/",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "copyright": "© 2025 JoyFlix AI. Built with ShipAny.",
+    "show_theme": false,
+    "show_locale": false,
+    "show_built_with": false
+  }
+}
